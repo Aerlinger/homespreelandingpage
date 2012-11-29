@@ -1,1 +1,18 @@
 @import"bootstrap";
+
+@font-face {
+    font-family: 'Lobster13Regular';
+    src: url(font-path('Lobster_1.3-webfont.eot') +"?#iefix") format('embedded-opentype'),
+         url(font-path('Lobster_1.3-webfont.woff')) format('woff'),
+         url(font-path('Lobster_1.3-webfont.ttf')) format('truetype'),
+         url(font-path('Lobster_1.3-webfont.svg') + "#MyFont") format('svg');
+}
+
+.mainlogo{
+	font-family:"Lobster13Regular", Times, serif;
+	font-size: 125px;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	text-align: center;
+	border-bottom: solid;
+}
