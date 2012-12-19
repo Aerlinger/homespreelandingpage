@@ -8,6 +8,8 @@
          url(font-path('Lobster_1.3-webfont.svg') + "#MyFont") format('svg');
 }
 
+
+
 .center{
 	text-align: center;
 }
@@ -27,8 +29,8 @@
 
 #abovefold{
 	background: url('/assets/landingpage_top.jpg') no-repeat;
-	background-size: 100%;
-	height: 900px;
+	background-size: 100% 100%;
+	height: 700px;
 	width: 100%;
 	border: solid;
 }
@@ -40,13 +42,9 @@
 }
 
 .mainquote{
-	padding-top:200px;
-	font-size:4em;
-	line-height: 45px;
+	font-size:2em;
+	line-height: 20px;
 	font-family:Impact, Charcoal, sans-serif;
 	color: #303030;
 }
 
-.inputfield{
-	padding-top:100px;
-}
