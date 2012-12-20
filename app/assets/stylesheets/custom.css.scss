@@ -8,6 +8,10 @@
          url(font-path('Lobster_1.3-webfont.svg') + "#MyFont") format('svg');
 }
 
+
+body{
+	padding-bottom: 100px;
+}
 .center{
 	text-align: center;
 }
@@ -55,10 +59,12 @@
 }
 
 #iphones{
-	height: 595px;
+	margin-top: 30px;
+	height: 520px;
 }
 
 .steps{
+	margin-top: 40px;
 }
 .step1{
 	width:307px;
@@ -108,4 +114,21 @@
 	line-height: 20px;
 	text-align:center;
 
+}
+
+.underphonetext{
+	font-size: 3em;
+	width: 700px;
+	line-height: 35px;
+	text-align: center;
+	margin-left: 120px;
+}
+
+.bottomtext{
+	margin-left:120px;
+	margin-top: 30px;
+	width: 700px;
+	border-top:solid;
+	border-width: 7px;
+	padding-top: 10px;
 }
