@@ -11,6 +11,7 @@
 
 body{
 	padding-bottom: 100px;
+	background-image: url('/assets/seamlesstexture29_1200.jpg')	;
 }
 .center{
 	text-align: center;
@@ -128,12 +129,40 @@ body{
 	margin-left:120px;
 	margin-top: 30px;
 	width: 700px;
-	border-top:solid;
 	border-width: 7px;
 	padding-top: 10px;
 }
 
 .mainiphone{
+	float: left;
 	padding-top: 122px;
 	width: 470px;
+	margin-left: -40px;
+}
+.logotop{
+	margin-top: 20px;
+	float:left;
+	width: 550px;
+	margin-left: -80px;
+}
+
+.quotetop{
+	margin-top: 30px;
+	float:left;
+	font-size: 2em;
+	line-height: 35px;
+	text-align: center;
+	width: 400px;
+	color: black;
+}
+
+.submitbutton{
+	margin-left: 20px;
+	float:left;
+	width: 350px;
+	margin-top: 50px;
+}
+
+.input-block-level{
+  display: block;
 }
