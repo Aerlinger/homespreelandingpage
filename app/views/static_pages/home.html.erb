@@ -92,20 +92,27 @@
 
 <!-- Confirm Modal -->
 <%if params[:ref] == "confirm" %>
-    <div id="confirmModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div id="confirmModal" class="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
         <h3 id="myModalLabel" class="center">Thank You!</h3>
       </div>
-      <div class="modal-body">
-        <p>We sent a confirmation to your email. Please confirm you signup.</p>
+      <div class="modal-body center">
+        <p>We just emailed you a confirmation. Please confirm you signup to be notified when we launch!
+        <br>
+        <hr>
+          <div class="fb-like" data-href="http://www.facebook.com/pages/Homespree/382209228538731" data-send="false" data-width="350" data-show-faces="false"></div>  
+
+        <a href="https://twitter.com/share" class="twitter-share-button" data-related="jasoncosta" data-lang="en" data-size="large" data-count="none" data-text="I signed up for @homespree. The smart way to get home improvement estimates! myhomespree.com">Tweet</a>
+      
+        </p>
       </div>
       <div class="modal-footer">
         <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
       </div>
     </div>
 <%end%>
-
+<!-- End Confirm Modal -->
 
 
 
@@ -150,7 +157,7 @@
 		<div class="response" id="mce-success-response" style="display:none"></div>
 	</div>	
 	<div class="clear span3 offset2">
-		<input type="submit" value="Signup!" name="subscribe" id="mc-embedded-subscribe" class="btn btn-large btn-block btn-primary">
+		<input type="submit" value="Sign up!" name="subscribe" id="mc-embedded-subscribe" class="btn btn-large btn-block btn-primary">
 	</div>
 </form>
 </div>
@@ -264,7 +271,7 @@ function mce_success_cb(resp){
     $('#mce-success-response').hide();
     $('#mce-error-response').hide();
     if (resp.result=="success"){
-        document.location.href = '/';
+        document.location.href = '/?ref=confirm';
     } else {
         var index = -1;
         var msg;
