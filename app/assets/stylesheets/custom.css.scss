@@ -65,32 +65,34 @@ body{
 
 #iphones{
 	margin-top: 25px;
-	height: 520px;
+	height: 475px;
 }
 
 .steps{
+	margin-left: 40px;
 	margin-top: 40px;
 }
 .step1{
 	padding: 0;
-	width:307px;
+	width:267px;
 	float:left;
 	height: 300px;
 }
 
 .step2{
-	width:307px;
+	width:267px;
 	float:left;
 	height: 300px;
 }
 
 .step3{
-	width:307px;
+	width:267px;
 	float:left;
 	height: 300px;
 }
 
 .steptitle{
+	font-family:Impact, Charcoal, sans-serif;
 	padding-top: 25px;
 	font-size: 3em;
 	text-align: center;
@@ -107,16 +109,18 @@ body{
 .step2picture{
 	width:110px;
 	margin-left: 90px;
+	height:85px;
 }
 
 .step3picture{
 	width:100px;
 	margin-left: 90px;
+	height: 85px;
 }
 .stepquote{
+	font-family:Arial, Helvetica, sans-serif;
+	letter-spacing: 1px;
 	margin-top: 10px;
-	margin-left: 37px;
-	width: 230px;
 	font-size: 1.5em;
 	line-height: 20px;
 	text-align:center;
@@ -124,23 +128,25 @@ body{
 }
 
 .underphonetext{
+	font-family:Impact, Charcoal, sans-serif;
 	font-size: 3em;
 	width: 700px;
 	line-height: 40px;
 	text-align: center;
 	margin-left: 120px;
+	margin-top: 20px;
+}
+
+.description{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	width: 700px;
+	line-height: 25px;
+	text-align: center;
+	margin-left: 120px;
 	margin-top: 10px;
 }
 
-.bottomtext{
-	margin-left:120px;
-	width: 700px;
-	border-top: solid;
-	border-width: 3px;
-	padding-top: 10px;
-	font-size: 15px;
-	color: #858585;
-}
 
 .mainiphone{
 	float: left;
@@ -162,6 +168,7 @@ body{
 	text-align: center;
 	width: 400px;
 	color: black;
+	font-family:Impact, Charcoal, sans-serif;
 }
 
 .submitbutton{
@@ -171,13 +178,20 @@ body{
 	margin-top: 40px;
 }
 
+.submitbutton2{
+	margin-left: 165px;
+	width: 600px;;
+	margin-top: 40px;
+}
+
 .input-block-level{
   display: block;
+  font-family:Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
 }
 
 .facebookicon_bottom{
 	margin-left: 120px;
-	margin-top: 50px;
 	float: left;
 	width:300px;
 	background-image: url('/assets/facebooklight_long.png');
@@ -187,7 +201,6 @@ body{
 
 .twittericon_bottom{
 	margin-left: 100px;
-	margin-top: 50px;
 	float: left;
 	width:300px;
 	background-image: url('/assets/twitterlight_long.png');
