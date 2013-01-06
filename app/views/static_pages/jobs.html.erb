@@ -1,0 +1,32 @@
+    
+<div class="container">
+    <header class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+<div class="container">
+<%= link_to "Homespree", root_path , id: "navlogo" %> <nav>
+<ul class="nav pull-right">
+<li><%= link_to "", '#' %></li> <li><%= link_to "", '#' %></li> <li><%= link_to "", '#' %></li>
+</ul> </nav>
+        </div>
+      </div>
+    </header>
+
+ <div class="row margintop">
+      <div class="span3 bs-docs-sidebar sidenav">
+        <ul class="nav nav-list bs-docs-sidenav nav-tabs nav-stacked">
+          <li><%=link_to "Company", company_path%></li>
+          <li><%=link_to "Home Owners", homeowners_path%></li>
+          <li><%=link_to "Contractors", contractors_path%></li>
+          <li><%=link_to "Blog", "#" %></li>
+          <li><%=link_to "Jobs", jobs_path%></li>
+          <li><%=link_to "Contact", contact_path%></li>
+        </ul>
+      </div>
+      <div class="span9 offset3 descriptiontext">
+      	<h1 class="center">Jobs</h1>
+      	<br>
+      	<p>Homespree is actively looking for technical talent to join the team! If you are a web or app developer, please contact us at founders@myhomespree.com</p>
+      	<br>
+      </div>
+</div>
+ </div>

@@ -3,6 +3,23 @@ Homespreelandingpage::Application.routes.draw do
 
   root to: 'static_pages#home'
 
+  match '/company', to: 'static_pages#company'
+
+  match '/homeowners', to: 'static_pages#homeowners'
+
+  match '/contractors', to: 'static_pages#contractors'
+
+  match '/jobs', to: 'static_pages#jobs'
+
+  match '/contact', to: 'static_pages#contact'
+
+
+
+
+
+
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

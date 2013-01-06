@@ -236,3 +236,107 @@ body{
 	background-image: url('/assets/pinterestlight.png');
 	background-repeat:no-repeat;
 }
+
+/*START Navigation*/
+
+#navlogo{
+	font-family:"Lobster13Regular", Times, serif;
+	float: left;
+	margin-right: 10px;
+	font-size: 2em;
+	  color: #fff;
+	  letter-spacing: -1px;
+	  padding-top: 9px;
+	  font-weight: bold;
+	  line-height: 1;
+	  padding-bottom: 9px;
+}
+
+#navlogo:hover {
+	color: #fff;
+  	text-decoration: none;
+}
+
+.margintop{
+	margin-top: 44px;
+}
+
+.sidenav{
+	position:fixed;
+	margin-top: 20px;
+}
+
+.descriptiontext{
+	margin-top: 20px;
+}
+
+
+
+
+
+/*END Navigation*/
+
+/*START Footer*/
+
+ html,
+      body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+      }
+      #footer {
+      	margin-top: 45px;
+  		padding-top: 5px;
+  		border-top: 1px solid #eaeaea;
+ 	 	color: #999;
+
+        font-size: 1.3em;
+
+      }
+
+
+#footer a {
+  color: black;
+}
+#footer a:hover {
+  color: gray;
+  text-decoration:none;
+}
+#footer small {
+  float: left;
+}
+#footer ul {
+	margin-left: 215px;
+  list-style: none;
+}
+#footer ul li {
+  float: left;
+  margin-left: 10px;
+}
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+
+
+
