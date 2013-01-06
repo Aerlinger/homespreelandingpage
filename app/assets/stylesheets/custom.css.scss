@@ -297,11 +297,13 @@ h3{
 
 .sidenav{
 	position:fixed;
+	float:left;
 	margin-top: 20px;
 	color: blue;
 }
 
 .descriptiontext{
+	float: left;
 	margin-top: 20px;
 	color: #143982;
 }
