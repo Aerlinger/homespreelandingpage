@@ -106,7 +106,7 @@ h3{
 
 .steps{
 	margin-top: 40px;
-	margin-left: 80px;
+	margin-left: 90px;
 }
 .step1{
 	padding: 0;
@@ -124,7 +124,7 @@ h3{
 
 .step3{
 	padding-left: 20px;
-	width:250px;
+	width:240px;
 	float:left;
 	height: 250px;
 
@@ -135,25 +135,25 @@ h3{
 .steptitle{
 	font-family:Tahoma, Geneva, sans-serif;
 	padding-top: 25px;
-	font-size: 3em;
+	font-size: 2.5em;
 	text-align: center;
 	height:50px;
 }
 
 .step1picture{
 	width:95px;
-	margin-left: 76px;
+	margin-left: 79px;
 	padding-top: 0px;
 }
 
 .step2picture{
 	width:110px;
-	margin-left: 90px;
+	margin-left: 85px;
 }
 
 .step3picture{
 	width:100px;
-	margin-left: 90px;
+	margin-left: 80px;
 }
 .stepquote{
 	font-family:Tahoma, Geneva, sans-serif;
@@ -376,6 +376,16 @@ h3{
 
 .activebackground{
 	background-color: black;
+}
+
+.navbar-inner{
+	padding-top: 3px;
+	padding-bottom:0px;
+	margin-bottom: 0px;
+}
+
+#myModalLabel{
+	font-size: 2em;
 }
 
 
