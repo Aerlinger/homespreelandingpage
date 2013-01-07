@@ -14,8 +14,3 @@
 //= require jquery_ujs
 //= require bootstrap
 //= require_tree .
-$(document).ready(function(){
-    $("#mainiphone").fadeIn(3000);
-    $("#").fadeIn(2000);
-    $("#quotetop").slideDown(3000);
-});
