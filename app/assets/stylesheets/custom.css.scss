@@ -67,7 +67,6 @@ h3{
 }
 
 #abovefold{
-	margin-top:53px;
 	background: url('/assets/livingroombackground2.png') no-repeat;
 	background-size: 100% 100%;
 	height: 450px;
@@ -393,10 +392,32 @@ h3{
 	font-size: 2em;
 }
 
-.fb_edge_widget_with_comment span.fb_edge_comment_widget iframe.fb_ltr {
-display: none !important;}
+.newnavbar{
+	background: url('/assets/navbarcolor.png');
+	background-size: 100% 100%;
+	height: 40px;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px
+}
 
+.newnavlogo{
+	float: left;
+	margin-top: 2px;
+}
 
+.facebookbutton{
+	margin-top: 13px;
+	margin-left: 20px;
+	float: left;
+}
+
+.tweetbutton{
+	margin-top: 10px;
+	margin-left: 20px;
+	float: left;
+}
 
 
 
