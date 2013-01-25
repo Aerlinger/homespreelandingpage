@@ -27,4 +27,8 @@ class StaticPagesController < ApplicationController
   	
   end
 
+  def pitch
+
+  end
+
 end

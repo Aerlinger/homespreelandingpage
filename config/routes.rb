@@ -13,6 +13,8 @@ Homespreelandingpage::Application.routes.draw do
 
   match '/contact', to: 'static_pages#contact'
 
+  match '/pitch', to: 'static_pages#pitch'
+
 
 
 
